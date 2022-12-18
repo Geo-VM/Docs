@@ -10,7 +10,7 @@ This helps you from preventing being your server **offline** or **overloaded**.
 
 :::
 
-# Go to Your Server > Schedules
+## Creating a schedule
 
 ![Banner](https://i.imgur.com/iCfvVdQ.png)
 
@@ -23,4 +23,4 @@ This helps you from preventing being your server **offline** or **overloaded**.
 ![Banner](https://i.imgur.com/Pf2Ezel.png)
 
 
-## 🎉 You made it!
+# 🎉 You made it!
