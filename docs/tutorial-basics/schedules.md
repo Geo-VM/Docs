@@ -10,34 +10,17 @@ This helps you from preventing being your server **offline** or **overloaded**.
 
 :::
 
-## Create your first React Page
+# Go to Your Server > Schedules
 
-Create a file at `src/pages/my-react-page.js`:
+![Banner](https://i.imgur.com/iCfvVdQ.png)
 
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
+- Now click __**Create schedule**__, after that click on the schedule that you made & click __**New task**__.
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+![Banner](https://i.imgur.com/irFbSGI.png)
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+- You will get this little box, where you have to set in **Send power action** and set in **1 Second** click **Create Task** and done.
 
-## Create your first Markdown Page
+![Banner](https://i.imgur.com/Pf2Ezel.png)
 
-Create a file at `src/pages/my-markdown-page.md`:
 
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+## 🎉 You made it!
