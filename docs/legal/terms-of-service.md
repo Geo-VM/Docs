@@ -2,6 +2,4 @@
 sidebar_position: 1
 ---
 
-# Terms of Service
-
-hi
+# 💼 Terms of Service
