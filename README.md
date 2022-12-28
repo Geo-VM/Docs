@@ -1,5 +1,5 @@
 # Oceanic's Docs
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.  
+
 
 # Contributing
 Follow these steps when contributing to this repository:  
