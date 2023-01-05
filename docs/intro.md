@@ -1,18 +1,16 @@
----
-sidebar_position: 1
----
+Oceanic 
 
-# 💸 Introduction
+-  Introduction
 
-:::caution
 
-Before starting, check our **Terms of Service** and **Privacy Policy**.
 
-:::
+- Before starting, check our **Terms of Service** and **Privacy Policy**.
 
-## Getting Started
 
-🦖 Get started by **[creating a account](https://billing.oceanichost.pw/register)**.
+
+- Getting Started
+
+- Get started by **[creating a account](https://billing.oceanichost.pw/register)**.
 
 ![Banner](https://i.imgur.com/6Zge5uC.png)
 
