@@ -9,4 +9,4 @@ Follow these steps when contributing to this repository:
 4. Wait for the workflow to verify your modification can build with success  
 
 
-  Thanks Oceanic Staff Team.
+  Thanks Oceanic.
