@@ -1,7 +1,7 @@
 # Oceanic's Docs
 
 
-# Contributing
+# Contributing To Oceanic
 Follow these steps when contributing to this repository:  
 1. Fork this repository  
 2. Make your changes  
