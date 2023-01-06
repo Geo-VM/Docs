@@ -1,8 +1,6 @@
----
-sidebar_position: 1
----
 
-# 🎈 Schedules
+
+#  Schedules
 
 :::info
 
@@ -23,4 +21,4 @@ This helps you from preventing being your server **offline** or **overloaded**.
 ![Banner](https://i.imgur.com/Pf2Ezel.png)
 
 
-# 🎉 You made it!
+#  You made it
