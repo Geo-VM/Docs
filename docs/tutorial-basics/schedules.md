@@ -1,12 +1,11 @@
 
-
 #  Schedules
 
-:::info
+info
 
 This helps you from preventing being your server **offline** or **overloaded**.
 
-:::
+
 
 ## Creating a schedule
 
