@@ -1,4 +1,4 @@
-OceanicHost Terms Of Service
+# OceanicHost Terms Of Service
 
 Terms Of Service
 
@@ -10,4 +10,4 @@ You must not try to bypass our services with alt accounts or you main account wi
 
 You must not try to Distributed denial of service our services or you will get reported to the police and your account will be terminated from our services and your discord account will be terminated.
 
-Thanks OceanicHost.
+Thanks Team Of OceanicHost.
