@@ -1,4 +1,4 @@
-OceanicHost Privacy Policy
+# OceanicHost Privacy Policy
 
 Privacy Policy
 
@@ -8,4 +8,4 @@ Privacy Policy
 
 - This Privacy Policy has the privacy rights to report anything to the police or anyone else within our services can help us.
 
-- Thanks OceanicHost.
+- Thanks Team Of OceanicHost.
