@@ -1,4 +1,4 @@
-// @ts-check
+/// @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'OceanicHost',
-  tagline: 'Welcome to our official Docs website.',
-  url: 'https://docs.oceanichost.pw',
+  title: 'Geo-VM',
+  tagline: 'text here. . .',
+  url: 'https://docs.geo-vm.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'OceanicHost', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: 'Geo-VM', // Usually your GitHub org/user name.
+  projectName: 'Docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-          'https://OceanicHost.pw',
+          'https://geo-vm.net',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://OceanicHost.pw',
+           'https://geo-vm.net',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,9 +57,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'OceanicHost',
+        title: 'Geo-VM',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Geo-VM',
           src: 'img/logo.png',
         },
         items: [
@@ -70,18 +70,13 @@ const config = {
             label: 'Docs',
           },
          {
-            href: 'https://OceanicHost.pw',
+            href: 'https://geo-vm.net',
             label: 'Website',
             position: 'right',
           },
           {
-            href: 'https://billing.OceanicHost.pw',
+            href: 'https://billing.geo-vm.net',
             label: 'Billing',
-            position: 'right',
-          },
-          {
-            href: 'https://gp.OceanicHost.pw',
-            label: 'Game Panel',
             position: 'right',
           },
         ],
@@ -93,7 +88,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Creating a server.',
+                label: 'Introduction.',
                 to: '/docs/intro',
               },
             ],
@@ -107,7 +102,7 @@ const config = {
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/OceanicHost',
+                href: 'https://twitter.com/geoovm',
               },
             ],
           },
@@ -116,12 +111,12 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/OceanicHost',
+                href: 'https://github.com/Geo-VM',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} OceanicHost, Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Geo-VM.net, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
