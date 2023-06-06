@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Documentation 📕
+            Read more
           </Link>
         </div>
       </div>
@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="OceanicHost />">
+      description="Geo-VM.net">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

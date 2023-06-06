@@ -1,9 +1,8 @@
 # Geo-VM Docs
 
-
 # Contributing To Geo-VM Docs Repo
 Follow these steps when contributing to this repository:  
 1. Fork this repository  
 2. Make your changes  
 3. Open a PR from your fork to the development branch  
-4. Wait for the workflow to verify your modification can build with success  
+4. Wait for the workflow to verify your modification can build with success

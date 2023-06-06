@@ -4,29 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-  title: 'Why choosing Oceanic?',
+    title: 'Easy Documentation',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        We are a freemium hosting, based on Spain. Our mission is to give to the world a better hosting service.
+        Our Documentation is well explained, for any one who needs to learn new things or trying to run anything in Linux. 
       </>
     ),
   },
   {
-    title: 'Interface',
+    title: 'Poweful Hardware',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Our interface is minimal & simple
+        We run on Intel Xeon CPUs, DDR3 RAM ECC, SSDs Disk, 1Gbp/s Network.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Pricing',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Our websites run with HTML, PHP and React.
+        At Geo-VM, we give you an affordable solutions starting from 1.50€
       </>
     ),
   },

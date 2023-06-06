@@ -1,18 +1,17 @@
 /// @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Geo-VM',
-  tagline: 'text here. . .',
+  tagline: '👋 Welcome to Geo-VM Documentation.',
   url: 'https://docs.geo-vm.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img//geovm.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -32,20 +31,6 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-          'https://geo-vm.net',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-           'https://geo-vm.net',
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -60,7 +45,7 @@ const config = {
         title: 'Geo-VM',
         logo: {
           alt: 'Geo-VM',
-          src: 'img/logo.png',
+          src: 'img/geovm.png',
         },
         items: [
           {
@@ -116,11 +101,10 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Geo-VM.net, Built with Docusaurus.`,
+        copyright: `Copyright © 2022 - ${new Date().getFullYear()} Geo-VM.net - Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: darkCodeTheme,
       },
     }),
 };
