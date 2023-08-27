@@ -1,8 +1,8 @@
 {
-  "label": "Tutorials",
+  "label": "💻 Tutorials",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "."
+    "description": "Here are some useful Tutorials that you can follow."
   }
 }
