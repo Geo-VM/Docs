@@ -14,7 +14,7 @@ Ever wanted to play with your friends online, for fun or trying to setup an SMP?
 Installing necesary packages
 
 ```
-sudo apt -y install screen wget openjdk-16-jdk
+sudo apt -y install screen wget openjdk-17-jdk
 ```
 
 

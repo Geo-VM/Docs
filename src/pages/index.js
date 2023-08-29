@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Geo-VM.net">
+      description="Geo-VM.net Documentation, here you can find useful tutorials or tips.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
