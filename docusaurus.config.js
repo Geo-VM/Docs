@@ -5,7 +5,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 module.exports = {
   title: 'Geo-VM',
-  themes: ['@docusaurus/theme-search-algolia'],
   tagline: '👋 Welcome to Geo-VM Documentation.',
   url: 'https://docs.geo-vm.net',
   baseUrl: '/',
@@ -32,6 +31,19 @@ module.exports = {
   ],
 
   themeConfig: {
+    algolia: {
+      appId: '',
+      apiKey: '',
+      indexName: '',
+      contextualSearch: true,
+      externalUrlRegex: 'external\\.com|domain\\.com',
+      replaceSearchResultPathname: {
+        from: '/',
+        to: '/',
+      },
+      searchParameters: {},
+      searchPagePath: 'search',
+    },
     navbar: {
       title: 'Geo-VM',
       logo: {
@@ -93,19 +105,6 @@ module.exports = {
         },
       ],
       copyright: `Copyright © 2022 - ${new Date().getFullYear()} Geo-VM.net - Built with Docusaurus.`,
-    },
-    algolia: {
-      appId: 'YOUR_APP_ID',
-      apiKey: 'YOUR_SEARCH_API_KEY',
-      indexName: 'YOUR_INDEX_NAME',
-      contextualSearch: true,
-      externalUrlRegex: 'external\\.com|domain\\.com',
-      replaceSearchResultPathname: {
-        from: '/docs/',
-        to: '/',
-      },
-      searchParameters: {},
-      searchPagePath: 'search',
     },
     prism: {
       theme: darkCodeTheme,
