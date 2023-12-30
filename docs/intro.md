@@ -5,13 +5,13 @@ sidebar_position: 1
 # Intro
 
 **Who are we?**
-- Geo-VM is a hosting company made for give everyone a Affordable hosting, as well for easy-to-use panels.
+- Geo-VM is a hosting company, offering variety of products. Whether you need VPS hosting, Game Servers, App Hosting, Storage Servers or Web Hosting. We prioritize your time and budget. Our misison is to make a cost-effective hosting for your specific needs.
 
 ## Products
-- [VPS Hosting](products/vps-hosting)
-- [Game Servers](products/game-servers)
-- [Storage Box](products/storage-box)
-- [Web Hosting](products/web-hosting)
+- [VPS Hosting](https://geo-vm.net/products/vps)
+- [Game Servers](https://geo-vm.net/products/gameservers)
+- [App Hosting](https://geo-vm.net/products/app)
+- Web Hosting - Soon
 
 ## Contributing
 - Is there something wrong, or you want to add something? [Fork the Documentation](https://github.com/Geo-VM/Docs), after that send a PR

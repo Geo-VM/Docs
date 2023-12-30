@@ -22,15 +22,15 @@ sudo apt -y install screen wget openjdk-17-jdk
 ### 2. Creating Folder
 :::info
 
-We're going to use `minecraft-server` as a folder name example, you can set whatever you like.
+We're going to use `minecraft` as a folder name example, you can set whatever you like.
 
 :::
 ```
-mkdir minecraft-server && cd minecraft-server
+mkdir minecraft && cd minecraft
 ```
 
 ### 3. Downloading Jar
-First you will need to copy/paste the download link for the server software. On the official Minecraft website, right-click on the download link and select Copy Link Location from the context menu.
+First you will need to copy the download link for the server software. On the official Minecraft website, right-click on the download link and select Copy Link Location from the context menu.
 ```
-wget <link>
+curl <link>
 ```

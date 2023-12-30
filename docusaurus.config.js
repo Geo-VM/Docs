@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 module.exports = {
   title: 'Geo-VM',
-  tagline: '👋 Welcome to Geo-VM Documentation.',
+  tagline: 'Tutorials & more, but not fully done yet.',
   url: 'https://docs.geo-vm.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -76,8 +76,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Introduction.',
+              label: 'Introduction',
               to: '/docs/intro',
+            },
+            {
+              label: 'Tutorials',
+              to: '/docs/category/-tutorials',
             },
           ],
         },
@@ -86,7 +90,11 @@ module.exports = {
           items: [
             {
               label: 'Discord',
-              href: 'https://dsc.gg/oceanich',
+              href: 'https://geo-vm.net/discord',
+            },
+            {
+              label: 'Telegram',
+              href: 'https://t.me/geovmnet',
             },
             {
               label: 'Twitter',
@@ -95,8 +103,16 @@ module.exports = {
           ],
         },
         {
-          title: 'More',
+          title: 'Links',
           items: [
+            {
+              label: 'VPS Panel',
+              href: 'https://vps.geo-vm.net',
+            },
+            {
+              label: 'Game Panel',
+              href: 'https://gp.geo-vm.net',
+            },
             {
               label: 'GitHub',
               href: 'https://github.com/Geo-VM',
@@ -104,7 +120,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © 2022 - ${new Date().getFullYear()} Geo-VM.net - Built with Docusaurus.`,
+      copyright: `Copyright © 2022 - ${new Date().getFullYear()} Geo-VM.net. - Built with Docusaurus.`,
     },
     prism: {
       theme: darkCodeTheme,

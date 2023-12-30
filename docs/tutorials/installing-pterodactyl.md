@@ -23,12 +23,12 @@ If you use auto install scripts [Pterodactyl®](https://pterodactyl.io) won't he
 
 1. Installing required packages
 ```
-apt -y install sudo curl
+sudo apt -y install curl
 ```
 
 2. Executing script
 ```
-bash <(curl -s https://pterodactyl-installer.se)>
+sudo bash <(curl -s https://pterodactyl-installer.se)>
 ```
 
 ## The end

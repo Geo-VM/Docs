@@ -12,7 +12,7 @@ sidebar_position: 1
 
 ## Installing necesary packages
 ```
-apt -y install curl sudo
+sudo apt -y install curl
 ```
 ## Choosing the Node.JS Version
 
@@ -77,6 +77,3 @@ node -v
 Output
 v14.4.0
 ```
-
-## The end
-🎉 So yup, you've made to the end, if you want to join our Discord server [Click me!](https://geo-vm.net/discord)
