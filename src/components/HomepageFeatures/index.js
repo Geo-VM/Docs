@@ -8,25 +8,25 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Our Documentation is well explained, for any one who needs to learn new things or trying to run anything in Linux. 
+        Our Documentation is made for anyone who needs to learn new things or trying to run anything. 
       </>
     ),
   },
   {
-    title: 'Poweful Hardware',
+    title: 'How to',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        We run on Intel Xeon CPUs, DDR3 RAM ECC, SSDs Disk, 1Gbp/s Network.
+        Explained and ready how to's.
       </>
     ),
   },
   {
-    title: 'Pricing',
+    title: 'Testing',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        At Geo-VM, we give you an affordable solutions starting from 1.50€
+        We test everything before pushing the scripts, commands. To make sure everything is up-to date.
       </>
     ),
   },
