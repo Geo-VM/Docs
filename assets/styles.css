@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+body{
+  @apply bg-gray-900 max-w-7xl mx-auto selection:bg-primary selection:text-black scroll-smooth;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Scroll bar */
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #171922;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f3bc7c;
+  border-radius: 6px;
+}
+
+.scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #f3bc7c #171922;
+}
+
+.scrollbar-thumb {
+  background-color: #f3bc7c;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  background: none;
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border: solid 0 rgb(0 0 0 / 0%);
+  border-right-width: 4px;
+  border-left-width: 4px;
+  -webkit-border-radius: 9px 4px;
+}
+
+::-webkit-scrollbar-track-piece {
+  margin: 4px 0;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  border-right-width: 0;
+  border-left-width: 0;
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+  -webkit-border-radius: 4px 9px;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Stuff */
+
+.filled {
+  fill: currentColor;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.selected {
+  background-color: #f3bd7f;
+  color: #000000;
+  border-radius: 7px;
+  padding: 0 10px;
+}

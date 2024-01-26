@@ -1,14 +1,13 @@
----
-sidebar_position: 1
----
+import { Callout } from 'nextra/components'
 
 # Installing PufferPanel
 [PufferPanel](https://www.pufferpanel.com/) is an open source game server management panel designed to be easy to use and easy to install. PufferPanel supports Minecraft, Forge, Spigot, Sponge, Source Dedicated Servers, BungeeCord, PocketMine, Forge, and much more.
 
 ## Installing PufferPanel via Docs
-:::info
-We recommend following [PufferPanel](https://www.pufferpanel.com/) Docs.
-:::
+
+<Callout type="info" emoji="ℹ️">
+  We recommend following [PufferPanel](https://www.pufferpanel.com/) Docs.
+</Callout>
 
 [Click me to install PufferPanel](https://docs.pufferpanel.com/en/2.x/)
 
@@ -16,16 +15,17 @@ We recommend following [PufferPanel](https://www.pufferpanel.com/) Docs.
 
 
 # Installing PufferPanel via Script
-:::caution
-If you use auto install scripts [PufferPanel](https://www.pufferpanel.com/) won't help you if there's an issue.
-:::
+
+<Callout type="error" emoji="️🚫">
+  If you use auto install scripts [PufferPanel](https://www.pufferpanel.com/) won't help you if there's an issue.
+</Callout>
 
 1. Installing required packages
-```
+```bash
 sudo apt -y install curl
 ```
 
 2. Executing script
-```
+```bash
 curl -o puffer.sh https://mirror.geo-vm.net/Scripts/puffer.sh && sudo bash puffer.sh
 ```

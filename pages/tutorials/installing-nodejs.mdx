@@ -1,0 +1,91 @@
+import { Callout } from 'nextra/components'
+import { Tabs } from 'nextra/components'
+
+# Installing Node.JS
+[Node.JS](https://nodejs.org/) is an open-source JavaScript runtime environment for building server-side and networking applications. It can run on Linux, macOS, FreeBSD, and Windows.
+
+## Requirements
+- VPS
+- 1GB RAM
+- Must have root access
+
+## Installing necesary packages
+```
+sudo apt -y install curl
+```
+## Choosing the Node.JS Version
+
+<Callout type="info" emoji="💡">
+  Here you can choose the Node.JS Version that you need, please before continuing choose the correct one.
+</Callout>
+
+<Tabs items={['v14', 'v16', 'v18', 'v20']}>
+  <Tabs.Tab>
+    ```bash
+    curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh && sudo bash nodesource_setup.sh && sudo apt -y install nodejs
+    ```
+
+## So what's next?
+Once, you're done do this command, if it shows your node.js version that you wanted, you're done.
+
+```
+node -v
+```
+
+```
+Output
+v14.x.x
+```
+  </Tabs.Tab>
+
+  <Tabs.Tab>
+    ```bash
+    curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh && sudo bash nodesource_setup.sh && sudo apt -y install nodejs
+    ```
+## So what's next?
+Once, you're done do this command, if it shows your node.js version that you wanted, you're done.
+
+```
+node -v
+```
+
+```
+Output
+v16.x.x
+```
+  </Tabs.Tab>
+
+  <Tabs.Tab>
+    ```bash
+    curl -sL https://deb.nodesource.com/setup_18.x -o nodesource_setup.sh && sudo bash nodesource_setup.sh && sudo apt -y install nodejs
+    ```
+## So what's next?
+Once, you're done do this command, if it shows your node.js version that you wanted, you're done.
+
+```
+node -v
+```
+
+```
+Output
+v18.x.x
+```
+  </Tabs.Tab>
+
+  <Tabs.Tab>
+    ```bash
+    curl -sL https://deb.nodesource.com/setup_20.x -o nodesource_setup.sh && sudo bash nodesource_setup.sh && sudo apt -y install nodejs
+    ```
+## So what's next?
+Once, you're done do this command, if it shows your node.js version that you wanted, you're done.
+
+```
+node -v
+```
+
+```
+Output
+v20.x.x
+```
+  </Tabs.Tab>
+</Tabs>
