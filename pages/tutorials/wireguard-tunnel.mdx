@@ -1,6 +1,6 @@
 import { Callout } from 'nextra/components';
 
-## WireGuard Tunnel
+# WireGuard Tunnel
 Ever wanted to expose your Home server with a VPN? We've got you covered with this tutorial!
 
 ## Requirements
@@ -8,7 +8,7 @@ Ever wanted to expose your Home server with a VPN? We've got you covered with th
 - Home server (Client side)
 - Must have root access
 
-# Server side
+## Server side
 
 <Callout type="info" emoji="ℹ️">
   While installing this, the VPS won't SSH anymore when you've done all the steps, because you're redirecting all the data to your Home server.
@@ -49,7 +49,7 @@ sudo netfilter-persistent reload
 ```
 If it shows a popup press **Y** aka **YES**
 
-# Client side
+## Client side
 
 ### 1. Install WireGuard and Resolvconf
 
