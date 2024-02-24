@@ -1,0 +1,61 @@
+import { Callout } from 'nextra/components'
+
+# Creating a minecraft server
+[Minecraft](https://minecraft.com) is a game made up of blocks, creatures, and community. You can survive the night or build a work of art – the choice is all yours.
+
+
+## Requirements
+- 2-4GB VPS Minimum
+- Root and SSH Access
+- Basic linux understanding
+
+## Getting started
+
+1. Installing required packages
+```bash
+sudo apt -y install sudo screen wget openjdk-18-jdk
+```
+
+2. Making the folder and going in
+
+<Callout type="info" emoji="ℹ️">
+  We are going to name the folder `my-server`, you can name whatever you want to.
+</Callout>
+
+```bash
+sudo mkdir my-server && my-server
+```
+
+3. Agreeing to Minecraft EULA
+```bash
+sudo echo "eula=true" > eula.txt
+```
+
+4. Getting the jar file
+
+<Callout type="warning" emoji="⚠️">
+  Please make sure to replace `<link>` with the correct URL.
+</Callout>
+
+```bash
+sudo wget <link>
+```
+
+In this case we're going to use the vanilla jar
+```bash
+sudo wget https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar
+```
+
+5. Enter on a screen shell
+```bash
+screen -S minecraft
+```
+
+6. Starting up the minecraft server
+```bash
+java -jar server.jar
+```
+
+Now press `Ctrl`, `a`, `n` on your keyboard. To get out of the screen shell & run the minecraft server on the background.
+
+7. Connect and enjoy!
