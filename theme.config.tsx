@@ -5,18 +5,21 @@ const config: DocsThemeConfig = {
 
   /* Announcement */
   banner: {
-    key: '1.0',
-    text: (
+    key: '1x.0',
+
+    /* Disabling it */
+
+    /* text: (
       <a href="#">
         ✨ New documentation design.
       </a>
-    )
+    ) */
   },
 
   /* Display the name */
   useNextSeoProps() {
     return {
-      titleTemplate: '%s - Geo-VM'
+      titleTemplate: 'Geo-VM - %s'
     }
   },
 
@@ -46,7 +49,7 @@ const config: DocsThemeConfig = {
   /* GitHub stuff */
   docsRepositoryBase: 'https://github.com/Geo-VM/Docs',
   footer: {
-    text: 'Geo-VM Documentation.',
+    text: 'Made with ❤️',
   },
 }
 
